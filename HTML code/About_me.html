@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<!-- A structure to format a page-->
+
+    <head>
+        <meta charset="UTF-8">                      <!-- define information about our file-->    
+        <meta name="description" content="Website about life and study">      <!--description for the website-->
+        <meta name="author" content="Son">
+        <meta name="keywords" content="HUST, study, life, Blog">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About me</title>
+
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <script src="https://kit.fontawesome.com/f4cf8dc5e4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+        <style>
+
+        /* background image for 'About me.html'  */
+        .MyInfo {
+            background-image: url('Mebackground.jpg');
+            background-size: cover;
+        }
+
+        /* text in 'About me.html' */
+        .myself .text {                      /*ui Gradients */
+            margin-left: 20px;
+            font-family: 'Times New Roman', Times, sans-serif;
+            font-size: 28px;
+        }          
+
+        </style>
+
+    </head>
+
+    <body class="MyInfo">
+        <header>
+                <h1><big>Sonstarsky <br />
+                    <i><small><small>A whole world of ideas</small></small></i></big>     <!--Heading of website (h1 to h6)-->
+                </h1>                               
+            <nav>
+                <ul id="bar">           <!--unordered list (or ol for ordered list), (or add type="*" next to 'ul')-->  
+                    <li><i class="fas fa-home fa-2x"></i></li>
+                    <li id="home" onclick="home()"><a href="index.html">Home</a></li>
+                    <li><a href="Me.html">About me</a></li>
+                    <li><a href="BlogPage.html">Blog</a></li>   
+                    <li><a href="Topics.html">Topics</a></li>   
+                    <li><a href="MaterialPage.html">Materials</a></li>
+                    <li><a href="EntertainPage.html">Entertainment</a></li>
+                    <li><a href="Quiz.html">Quiz</a></li>
+                    <li><a href="Service.html">Service</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+
+                    <form id="form" role="search">
+                        <input type="search" id="query" name="q"
+                         placeholder="Search..."
+                         aria-label="Search through site content">
+                        <button id="view">
+                            <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+                        </button>
+                    </form>
+                    
+                </ul>
+
+            </nav>
+            <hr/>                                                                                            
+        </header>
+        
+        <main>
+            <article>
+                <h3 class="intro">__A story of my own life__</h3>
+            <br>
+            <section class="home" id="home">
+                    <div class="max-width">
+                        <class class="home-content">
+                        <div class="text-1">Hello, my name is</div>
+                        <div class="text-2">Son Vo</div>
+                        <div class="text-3">And I'm <span class="typing"></span></div>
+                   </div>
+            </section>
+                
+            <div class="myself">    
+                <section>
+                    <p class="text"><b><i>A little bit about myself ...</i></b></p>
+                    <p>My name is Vo Khoi Thanh Son. At the time I made this website, I was a sophomore 
+                        at Hanoi university of science and technology. I major in Automation, which is, 
+                        to everybody's knowledge, a relatively promising field in the revolution of technology. 
+                    </p>
+
+                    
+                    <p>Included here is a picture of me as a freshmen in HUST. I was on my way to become 
+                        a better version of myself, but life and study in one of the <i>leading technical 
+                        university of Vietnam</i> was absolutely no mean feat. </p>
+
+                </section>
+                <br/> <br/> <br/>
+                <section>
+                    <p> Honestly studying in college is perfectly the time to get yourself involved in 
+                        an awful lot of social activities, including different projects related to your
+                        major. Personally I have a soft spot for technical projects as well as competitions
+                        ; however; these would cause you many difficulties.
+                    </p>
+                    
+                    <br/><br/>
+
+                   
+                </section>
+
+                <br\><br\>
+                <section>
+                   
+                </section>
+            </div>
+            </article>
+        </main>
+
+        <footer>
+            <p id="paragraph1">Note: here is my social account that you can connect with me if you have any questions!</p>
+
+            <span id="contact"><a href="https://www.facebook.com/sonvo.0912" target="_blank"><small><h4><i>Facebook</i></h4></small></a></span>
+            <span id="contact"><a href="https://www.instagram.com/vkts0912/" target="_blank"><small><h4><i>Instagram</i></h4></small></a></span> 
+            <span id="contact"><a href="https://www.youtube.com/channel/UCL6ycEVaKMCKcD-nBnd2R4Q" target="_blank"><small><h4><i>Youtube</i></h4></small></a></span>   
+            <span id="contact"><a href="https://soundcloud.com/s-n-v-11882990/sets" target="_blank"><small><h4><i>Soundclound</i></h4></small></a></span>          
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    
+
+</html>

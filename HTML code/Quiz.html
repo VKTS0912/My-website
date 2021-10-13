@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<!-- A structure to format a page-->
+
+    <head>
+        <meta charset="UTF-8">                      <!-- define information about our file-->    
+        <meta name="description" content="Website about life and study">      <!--description for the website-->
+        <meta name="author" content="Son">
+        <meta name="keywords" content="HUST, study, life, Blog">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fun Quiz</title>
+
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <link rel="stylesheet" type="text/css" href="Quiz.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://kit.fontawesome.com/f4cf8dc5e4.js" crossorigin="anonymous"></script> 
+        <style>
+            #body {
+                background-image: url("https://cdn.pixabay.com/photo/2016/12/15/14/32/question-mark-background-1909040_640.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            #myQuiz {
+                font-family:'Times New Roman', Times, serif;
+                font-size: 25px;
+                margin-left: 30px;
+                text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+            }
+            #quizIntro {
+                font-family: 'Bitter', serif;
+                font-size: 18px;
+                margin-left: 30px;
+            }
+
+            #logo {position: relative; bottom: 60px; float: right;}
+
+        </style>
+    </head>
+
+    <body id="body" >
+        <header>
+            <h1><big>Sonstarsky <br/>
+                <i><small><small>A whole world of ideas</small></small></i></big>     <!--Heading of website (h1 to h6)-->
+            </h1>                                
+            <nav>
+                <ul id="bar">           <!--unordered list (or ol for ordered list), (or add type="*" next to 'ul')-->  
+                    <li><i class="fas fa-home fa-2x"></i></li>
+                    <li id="home" onclick="home()"><a href="index.html">Home</a></li>
+                    <li><a href="Me.html">About me</a></li>
+                    <li><a href="BlogPage.html">Blog</a></li>   
+                    <li><a href="Topics.html">Topics</a></li>   
+                    <li><a href="MaterialPage.html">Materials</a></li>
+                    <li><a href="EntertainPage.html">Entertainment</a></li>
+                    <li><a href="Quiz.html">Quiz</a></li>
+                    <li><a href="Service.html">Service</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+
+                    <form id="form" role="search">
+                        <input type="search" id="query" name="q"
+                         placeholder="Search..."
+                         aria-label="Search through site content">
+                        <button id="view">
+                            <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+                        </button>
+                    </form>
+                </ul>
+
+            </nav>
+            <hr/>                                                      <!--horizontal rule tag to create a line-->
+            <br>                                                       <!--break tag to create space-->
+        </header>
+        
+        <main>
+            <h4 id="myQuiz">My Quiz</h4>
+            <p id="quizIntro">Each quiz contains 20 questions, you get 1 point for each correct answer, at the end of each quiz you get your total score.</p>
+
+            <p id="quizIntro">When you finish the quiz, you can go through each question with the correct answer.</p>
+            <br>
+            <article class="quiz">
+                <section class="quizCountry">
+                   <h2>Countries</h2>
+                   <p>20 questions covering knowledge about countries</p>
+                   <br>
+                    <a href="CountryQuiz.html">
+                        <button><b>Start Quiz</b></button>
+                    </a>
+                </section>
+
+                <section class="quizAnimal">
+                    <h2>Animals</h2>
+                    <p>20 questions covering knowledge about animals</p>
+                    <br>
+                    <a href="AnimalQuiz.html">
+                        <button><b>Start Quiz</b></button>
+                    </a>
+                </section>
+
+                <section class="quizSport">
+                    <h2>Sports</h2>
+                    <p>20 questions covering knowledge about sports</p>
+                    <br>
+                     <a href="SportQuiz.html">
+                         <button><b>Start Quiz</b></button>
+                     </a>
+                 </section>
+
+                 <section class="quizMusic">
+                    <h2>Music</h2>
+                    <p>20 questions covering knowledge about music</p>
+                    <br>
+                     <a href="MusicQuiz.html">
+                         <button><b>Start Quiz</b></button>
+                     </a>
+                 </section>
+
+                 <section class="quizFoodAndDrinks">
+                    <h2>Food & Drinks</h2>
+                    <p>20 questions covering knowledge about food and drinks</p>
+                    <br>
+                     <a href="FoodAndDrinksQuiz.html">
+                         <button><b>Start Quiz</b></button>
+                     </a>
+                 </section>
+
+                 <section class="quizArt">
+                    <h2>Arts & Cultures</h2>
+                    <p>20 questions covering knowledge about arts and cultures</p>
+                    <br>
+                     <a href="ArtQuiz.html">
+                         <button><b>Start Quiz</b></button>
+                     </a>
+                 </section>
+
+                 <section class="quizHistory">
+                    <h2>History</h2>
+                    <p>20 questions covering knowledge about history</p>
+                    <br>
+                     <a href="HistoryQuiz.html">
+                         <button><b>Start Quiz</b></button>
+                     </a>
+                 </section>
+
+                 <section class="quizUniverse">
+                    <h2>Universe</h2>
+                    <p>20 questions covering knowledge about the universe</p>
+                    <br>
+                     <a href="UniverseQuiz.html">
+                         <button><b>Start Quiz</b></button>
+                     </a>
+                 </section>
+
+                 <section class="quizTechnology">
+                    <h2>Technology</h2>
+                    <p>20 questions covering knowledge about science & technology</p>
+                    <br>
+                     <a href="TechnologyQuiz.html">
+                         <button><b>Start Quiz</b></button>
+                     </a>
+                 </section>
+
+                 <section class="quizCelebrity">
+                    <h2>Celebrities</h2>
+                    <p>20 questions covering your knowledge about celebrities</p>
+                    <br>
+                     <a href="CelebrityQuiz.html">
+                         <button><b>Start Quiz</b></button>
+                     </a>
+                 </section>
+            </article>
+        </main>
+
+        <footer>
+            <br>
+            <p id="paragraph1">Note: here is my social account that you can connect with me if you have any questions!</p>
+            <img id="logo" src="Logo.png" width="15%" >
+            <span id="contact"><a href="https://www.facebook.com/sonvo.0912" target="_blank"><small><h4><i>Facebook</i></h4></small></a></span>
+            <span id="contact"><a href="https://www.instagram.com/vkts0912/" target="_blank"><small><h4><i>Instagram</i></h4></small></a></span> 
+            <span id="contact"><a href="https://www.youtube.com/channel/UCL6ycEVaKMCKcD-nBnd2R4Q" target="_blank"><small><h4><i>Youtube</i></h4></small></a></span>   
+            <span id="contact"><a href="https://soundcloud.com/s-n-v-11882990/sets" target="_blank"><small><h4><i>Soundclound</i></h4></small></a></span>
+        </footer>
+       
+    </body>
+    
+
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<!-- A structure to format a page-->
+
+    <head>
+        <meta charset="UTF-8">                      <!-- define information about our file-->    
+        <meta name="description" content="Website about life and study">      <!--description for the website-->
+        <meta name="author" content="Son">
+        <meta name="keywords" content="HUST, study, life, Blog">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculus I</title>
+
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <script src="https://kit.fontawesome.com/f4cf8dc5e4.js" crossorigin="anonymous"></script> 
+        <style>
+            .myMaterials {background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/04/wood-1853403_960_720.jpg); background-size: cover;}
+            #point {position: relative; left: 160px ; width: 1000px; height: 70%;} 
+            #lowpoint {float: right; width: 50%; height: 100%;}
+            #note {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                font-style: italic;
+                float: right;
+                margin-right: 150px;
+            }
+            p {margin-left: 30px; margin-right: 30px;}
+            .file a {
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                margin-left: 50px;
+            }
+            #logo {position: relative; bottom: 60px; float: right;}
+        </style>
+
+    </head>
+
+    <body class="myMaterials">
+        <header>
+            <h1><big>Sonstarsky <br/>
+                <i><small><small>A whole world of ideas</small></small></i></big>     <!--Heading of website (h1 to h6)-->
+            </h1>                                  
+            <nav>
+                <ul id="bar">           <!--unordered list (or ol for ordered list), (or add type="*" next to 'ul')-->  
+                    <li><i class="fas fa-home fa-2x"></i></li>
+                    <li id="home" onclick="home()"><a href="index.html">Home</a></li>
+                    <li><a href="Me.html">About me</a></li>
+                    <li><a href="BlogPage.html">Blog</a></li>   
+                    <li><a href="Topics.html">Topics</a></li>   
+                    <li><a href="MaterialPage.html">Materials</a></li>
+                    <li><a href="EntertainPage.html">Entertainment</a></li>
+                    <li><a href="Quiz.html">Quiz</a></li>
+                    <li><a href="Service.html">Service</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+
+                    <form id="form" role="search">
+                        <input type="search" id="query" name="q"
+                         placeholder="Search..."
+                         aria-label="Search through site content">
+                        <button id="view">
+                            <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+                        </button>
+                    </form>
+                    
+                </ul>
+
+            </nav>
+            <hr/>                                 <!--horizontal rule tag to create a line-->
+        </header>
+        
+        <main>
+            
+            <h3 class="intro" > <small>__ Life is like Calculus. You just need to limit your spirits to infinity __</small> </h3>
+
+            <div class="materials">
+                <a href="Calculus I.html" class="CalculusI">  
+                    <button>   
+                        Calculus I
+                    </button>
+                </a>
+        
+                <a href="Calculus II.html" class="CalculusII">  
+                    <button>   
+                        Calculus II
+                    </button>
+                </a>
+        
+                <a href="Algebra.html" class="Algebra">  
+                    <button>   
+                        Algebra
+                    </button>
+                </a>
+        
+                <a href="Physics I.html" class="PhysicsI">  
+                    <button>   
+                        Physics I
+                    </button>
+                </a>
+                
+                <a href="Probability and Statistics.html" class="Probability">  
+                    <button>   
+                        Probability and Statistics
+                    </button>
+                </a>
+
+                <a href="Philosophy.html" class="Philosophy">  
+                    <button>   
+                        Philosophy
+                    </button>
+                </a>
+        
+                <a href="Political Economy.html" class="PoliticalEconomy">  
+                    <button>   
+                        Political Economy
+                    </button>
+                </a>
+        
+                <a href="Language.html" class="Language">  
+                    <button>   
+                        Language
+                    </button>
+                </a>
+            </div>
+            <article>
+                <section>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <img id="point" src="point.PNG">
+                    <br><br><br>
+                    <p>
+                        As you can see above, I achieve a score of 9.0 out of 10.0 in Calculus I, which seems 
+                        to be a pretty high score compared to other peers. The secret behind my success in 
+                        this subject all boils down to my preparation in materials and thorough revision,
+                        together with a bit of luck, for sure =)). Anyway, as a former HUST student having 
+                        experience in dealing with Calculus I, I wanna share with you some of my materials, 
+                        including lectures and test banks which will probably come in handy for freshmen.
+                        By completing these exercises I have been able to consolidate my knowledge
+                        as well as gaining confidence in my final exam. Thanks to this score, I got an A in
+                        Calculus I and finally obtaining a scholarship in my first semester (^_^)
+                    </p>
+                    <br>
+                    <div class="click-zoom">
+                        <label>
+                          <input type="checkbox">
+                          <img id="lowpoint" src="lowpoint.PNG">
+                        </label>
+                      </div>
+                    
+                    <p>
+                        However, don't be disappointed about yourself if you cannot finish the test to
+                        the best of your ability, since Calculus I is a difficult subject. Make sure that you
+                        have revised as thoroughly as you can and tried your best in the exam, then there's 
+                        nothing to have regrets about. If you're still feeling afraid of failing the exam or 
+                        having difficulty in this subject, I reassure you that this is a normal thing and you 
+                        have to accept it. Especially in Bach Khoa HN, you will face more challenging problems
+                        in studying than in most of the other universities; therefore, if you're not a HUST-er, 
+                        don't put too much pressure on yourself and even if you only get an average score of
+                        5 or 6 out of 10, cheer yourself up because you are just in the same boat with many
+                        other students :))
+                    </p>
+                    
+                    <p id="note" >Score of the majority of HUSTers in Calculus I </p>
+                    <br>
+                    <p>
+                        OK stop beating around the bush here! I'm not trying to show off my score, but I just
+                        provide some tips and motivation for those having trouble studying Calculus. And if you
+                        are still at a loss where to find the materials for this subject, this page is for you.
+                        I store some of the materials down here and I'm sure that they will be useful to you
+                        some extent.
+                    </p>
+                </section>
+
+                <section>
+                    <ul class="file"> 
+                        <a src="https://drive.google.com/file/d/1lYU_UxmqufCzzyvctNaCz_UzX_Z4wrrM/view?usp=sharing" target="blank">Exercises</ì>
+                        <a href="https://drive.google.com/drive/folders/1e242eEbYV1DY-7gmgEu3XuSyLsX8Hjk7?usp=sharing" target="blank">Key</a>
+                    </ul>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+        <br><b<br><br><br>
+            <p id="paragraph1">Note: here is my social account that you can connect with me if you have any questions!</p>
+            <img id="logo" src="Logo.png" width="15%" >
+            <span id="contact"><a href="https://www.facebook.com/sonvo.0912" target="_blank"><small><h4><i>Facebook</i></h4></small></a></span>
+            <span id="contact"><a href="https://www.instagram.com/vkts0912/" target="_blank"><small><h4><i>Instagram</i></h4></small></a></span> 
+            <span id="contact"><a href="https://www.youtube.com/channel/UCL6ycEVaKMCKcD-nBnd2R4Q" target="_blank"><small><h4><i>Youtube</i></h4></small></a></span>   
+            <span id="contact"><a href="https://soundcloud.com/s-n-v-11882990/sets" target="_blank"><small><h4><i>Soundclound</i></h4></small></a></span>
+        </footer>
+       
+    </body>
+    
+
+</html>

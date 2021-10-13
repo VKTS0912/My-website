@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">                      <!-- define information about our file-->    
+    <meta name="description" content="Website about life and study">      <!--description for the website-->
+    <meta name="author" content="Son">
+    <meta name="keywords" content="HUST, study, life, Blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="FrontPage.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/f4cf8dc5e4.js" crossorigin="anonymous"></script>   <!--used to add icons on fontawesome-->
+    <title>My Material Page</title>
+</head>
+<body>
+    <nav>   
+        <ul id="bar">           <!--unordered list (or ol for ordered list), (or add type="*" next to 'ul')-->  
+            <li><i class="fas fa-home fa-2x"></i></li>
+            <li id="home" onclick="home()"><a href="index.html">Home</a></li>
+            <li><a href="Me.html">About me</a></li>
+            <li><a href="BlogPage.html">Blog</a></li>   
+            <li><a href="Topics.html">Topics</a></li>   
+            <li><a href="MaterialPage.html">Materials</a></li>
+            <li><a href="EntertainPage.html">Entertainment</a></li>
+            <li><a href="Quiz.html">Quiz</a></li>
+            <li><a href="Service.html">Service</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+
+            <form id="form" role="search">
+                <input type="search" id="query" name="q"
+                placeholder="Search..."
+                aria-label="Search through site content">
+                <button id="view">
+                    <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+                </button>
+            </form>
+        </ul>
+    </nav>
+    <hr/> 
+
+    <video id="background-video" autoplay loop muted poster= "Material poster.png" style="height:max-content;">
+    <source src="https://assets.mixkit.co/videos/preview/mixkit-man-working-on-his-laptop-308-large.mp4" type="video/mp4">
+    </video>
+
+    <h1>MATERIALS</h1>
+    <h2>To acquire knowledge, one must study</h2>
+    <br/><br/>
+    <div>
+        <a href="Materials.html" class="Materials">  
+            <button>   
+            To My Materials
+            </button>
+        </a>
+
+        <a href="index.html" class="Homepage">  
+            <button>   
+            Back To Home Page
+            </button>
+        </a>
+    </div>
+    
+</body>
+</html>
