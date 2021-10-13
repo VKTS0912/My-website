@@ -1,0 +1,515 @@
+
+html {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+body {
+    background-image: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+P {
+    color:black;
+    font-family: "MV Boli", "Ink Free", sans-serif;
+    font-size: 20px;
+    text-decoration: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* 
+    font-style: italic
+    font-weight: bold 
+    */
+}
+
+
+h1 {
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    font-family: 'Style Script', cursive;
+    color:#DFCFBE; 
+    background-image: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    text-align: center;
+}
+
+a:local-link {                      /* pseudo classes */
+    font-size: large;            /* a:visited as well */
+    color: #34568B;
+}
+a:active {color:#940094;}
+
+
+img {
+    float: left;
+    margin-top: 1px;
+    margin-left: 6px;
+    margin-right: 8px;
+}
+
+video {
+    float: right;
+    margin: 8px;
+}
+
+
+#contact {                            /* li:nth-child(odd/even) {} */
+    list-style-type: none;
+    display: inline-block;
+    font-size: large;
+    text-align: center;
+    margin: 0px 20px;
+    padding-left: 160px;
+}
+
+/* icon */
+#home {
+    padding-left: 55px;
+}
+
+
+/* list on navigation bar */
+#bar {
+    font-family: 'Times New Roman', Times, sans-serif;
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 2px; margin-right: 2px;
+    overflow: hidden;
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+#bar a{                             /* for any 'a' in #bar */
+    margin-left: 2px;
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid white;
+    min-width: 62px;
+}
+#bar a:hover {
+    background-color: #eef2f3; 
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 2px #000000, 0px -2px 2px #434343
+}
+
+
+
+/* text in 'Blog' */
+#myblogtext {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);        
+}
+
+
+/* social media links */
+#paragraph1 {
+    color:red;
+    padding: 1px;
+    border-style: solid;
+    border-style: dashed;      /* Css will execute this */
+    border-color: black;
+    border-width: 2px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+
+/* quote */
+.intro {
+    border: 1px solid;
+    width: 800px;
+    padding: auto;
+    margin: auto;
+    text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+    box-shadow: 10px 10px 5px #323232;
+    font-family: 'Style Script', cursive, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+
+/* support website */
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: medium;
+}
+
+
+#colorChange1 {
+    background: red;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 200px;
+    animation: myColorAnimation, myTranslate1; 
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+#colorChange2 {
+    background: red;
+    font-size: 16px;
+    position: absolute;
+    right: 28px;
+    text-align: center;
+    padding: 5px;
+    animation: myColorAnimation, myTranslate2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes myColorAnimation {
+    14%{background-color:red;}
+    28%{background-color:orange;}
+    42%{background-color:yellow;}
+    56%{background-color:green;}
+    72%{background-color:blue;}
+    84%{background-color:indigo;}
+    100%{background-color:violet;}
+}
+
+@keyframes myTranslate1 {
+    50% {transform: translate(1155px, 0);}
+}
+@keyframes myTranslate2 {
+    50% {transform: translate(-1155px, 0);}
+}
+
+
+@keyframes myGlowAnimation {
+    50% {text-shadow: 0px 0px 2px #000000, 0px -2px 2px #434343;}
+}
+
+.fa-home {
+    position: relative;
+    left: 20px;
+    float: left;
+    color: white;
+    opacity: 90%;
+}
+.fa-edit {
+    float: right;
+    margin-right: 5px;
+}
+
+
+
+/* search bar decoration */
+#form {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 4px;
+    position: relative;
+    left: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.7; 
+}
+
+#view {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+svg {
+    color: black;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+
+
+/* Chatbot in 'Contact' */
+.chatbot {
+    position: absolute;
+    left: 900px;
+    top: 270px;
+}
+
+
+/* registration form in 'Contact' */
+.form-style-2{
+	max-width: 500px;
+	padding: 20px 12px 10px 20px;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+.form-style-2-heading{
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+.form-style-2 label{
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.form-style-2 label > span{
+	width: 100px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+.form-style-2 span.required{
+	color:red;
+}
+.form-style-2 .tel-number-field{
+	width: 40px;
+	text-align: center;
+}
+.form-style-2 input.input-field, .form-style-2 .select-field{
+	width: 48%;	
+}
+.form-style-2 input.input-field, 
+.form-style-2 .tel-number-field, 
+.form-style-2 .textarea-field, 
+.form-style-2 .select-field{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+.form-style-2 .input-field:focus, 
+.form-style-2 .tel-number-field:focus, 
+.form-style-2 .textarea-field:focus,  
+.form-style-2 .select-field:focus{
+	border: 1px solid black;
+}
+.form-style-2 .textarea-field{
+	height:100px;
+	width: 55%;
+}
+.form-style-2 input[type=submit],
+.form-style-2 input[type=button] {
+	border: none;
+    width: 62px;
+	padding: 8px 5px 8px 15px;
+	background: #FF8500;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+    cursor: pointer;
+}
+.form-style-2 input[type=submit]:hover,
+.form-style-2 input[type=button]:hover{
+	background: #EA7B00;
+	color: #fff;
+    animation: myGlowAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.form-style-2 input[type=button]:active{
+    border: 1px solid black ;
+	background: #EA7B00;
+    color: black;
+}
+
+
+/* button on 'Materials.html' */
+
+.materials button {
+    background-color: whitesmoke;
+    width: 200px;
+    border-style:hidden;
+    border-radius: 2px;
+    color: black;
+    position: absolute;
+    left: 580px;
+    margin: 0px;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.materials button:hover {
+    background-color: #ffffff;
+    opacity: .7;
+}
+.materials button:active {border: 0.5px groove grey;}
+
+.materials button {
+    border-style:inherit;
+    border-color: black;
+    background: linear-gradient(#8e9eab, #eef2f3);
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.materials button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.CalculusI button {bottom: -100px;}
+.CalculusI {
+    position: relative;
+    right: 560px;
+}
+
+.CalculusII button {bottom: -100px;}
+.CalculusII {
+    position: relative;
+    right: 295px;
+}
+
+.Algebra button {bottom: -100px;}
+.Algebra {
+    position: relative;
+    right: 35px;
+}
+
+.PhysicsI button {bottom: -100px;}
+.PhysicsI {
+    position: relative;
+    left: 225px;
+}
+
+.Philosophy button {bottom: -100px;}
+.Philosophy {
+    position: relative;
+    left: 490px;
+}
+
+.Probability button {bottom: -180px; width: 300px;}
+.Probability {
+    position: relative;
+    left: 320px;
+}
+
+.PoliticalEconomy button {bottom: -180px; width: 300px;}
+.PoliticalEconomy {
+    position: relative;
+    right: 480px;
+}
+
+.Language button {bottom: -180px;}
+.Language {
+    position: relative;
+    right: 35px;
+}
+
+
+/* zoom in, out an image */
+.click-zoom input[type=checkbox] {
+    display: none
+  }
+  
+.click-zoom img {
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+}
+  
+.click-zoom input[type=checkbox]:checked~img {
+    transform: scale(2);
+    cursor: zoom-out;
+}
+
+
+/* typing introduction in 'About me' */
+.home .max-width{
+    width: 100%;
+    display: flex;
+  }
+  .home .max-width .row{
+    margin-right: 0;
+  }
+  .home .home-content {
+      margin-left: -30px;
+  }
+  .home .home-content .text-1{
+      font-size: 27px;
+  }
+  .home .home-content .text-2{
+      font-size: 75px;
+      font-weight: 600;
+  }
+  .home .home-content .text-3{
+      font-size: 40px;
+      margin: 5px 0;
+  }
+  .home .home-content .text-3 span{
+      color: crimson;
+      font-weight: 500;
+  }
+  .home .home-content a{
+      display: inline-block;
+      background: crimson;
+      color: #fff;
+      font-size: 25px;
+      padding: 12px 36px;
+      margin-top: 20px;
+      font-weight: 400;
+      border-radius: 6px;
+      border: 2px solid crimson;
+      transition: all 0.3s ease;
+  }
+  .home .home-content a:hover{
+      color: crimson;
+      background: none;
+  }
+
+  

@@ -1,0 +1,190 @@
+button{
+    padding-bottom: 8px;
+    background-color: #00A36C;
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: #009E60;
+}
+
+button:active {
+    border: dotted 0.5px black;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+h2 {
+    font-size: 45px;
+}
+.quiz p {
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-size: 16px;
+}
+
+.quizCountry {
+    border-style: none;
+    border-width: 0px;
+    background-color: #fffac3;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 700px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-left: 130px;
+    text-align: center;
+}
+
+
+.quizAnimal {
+    border-style: none;
+    border-width: 0px;
+    background-color: #ffe2ff;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    left: 720px;
+    top: 447px;
+    text-align: center;
+}
+
+
+.quizSport {
+    border-style: none;
+    border-width: 0px;
+    background-color: #f9f4f4;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 700px;
+    margin-left: 130px;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    text-align: center;
+}
+
+
+.quizMusic {
+    border-style: none;
+    border-width: 0px;
+    background-color: #ffeac4;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    left: 720px;
+    top: 754px;
+    text-align: center;
+}
+
+
+.quizFoodAndDrinks {
+    border-style: none;
+    border-width: 0px;
+    background-color: #ffb1b1;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 700px;
+    margin-left: 130px;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    text-align: center;
+}
+
+
+.quizArt {
+    border-style: none;
+    border-width: 0px;
+    background-color: #d8d8ff;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    left: 720px;
+    top: 1058px;
+    text-align: center;
+}
+
+
+.quizHistory {
+    border-style: none;
+    border-width: 0px;
+    background-color: #e4dcd1;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 700px;
+    margin-left: 130px;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    text-align: center;
+}
+
+
+.quizUniverse {
+    border-style: none;
+    border-width: 0px;
+    background-color: #ffff9d;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    left: 720px;
+    top: 1384px;
+    text-align: center;
+}
+
+
+.quizTechnology {
+    border-style: none;
+    border-width: 0px;
+    background-color: #fad9c1;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 700px;
+    margin-left: 130px;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    text-align: center;
+}
+
+
+.quizCelebrity {
+    border-style: none;
+    border-width: 0px;
+    background-color: #E5E4E2;;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    left: 720px;
+    top: 1688px;
+    text-align: center;
+}

@@ -1,0 +1,452 @@
+
+html {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Home */
+#home {padding-left: 55px;}
+
+
+/* list on navigation bar */
+#bar {
+    font-family: 'Times New Roman', Times, sans-serif;
+    list-style-type: none;
+    height: 38px;
+    padding: 0px;
+    margin-left: 2px; margin-right: 2px;
+    overflow: hidden;
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+#bar a{                             /* for any 'a' in #bar */
+    margin-left: 2px;
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid white;
+    min-width: 62px;
+}
+#bar a:hover {
+    background-color: #eef2f3; 
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 2px #000000, 0px -2px 2px #434343
+}
+
+
+.fa-home {
+    position: relative;
+    left: 20px;
+    float: left;
+    color: white;
+    opacity: 90%;
+}
+
+
+/* search bar decoration */
+#form {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 4px;
+    position: relative;
+    left: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.7; 
+}
+
+#view {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+svg {
+    color: black;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+
+/* video background */
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+  
+ 
+/* page content */
+  
+body {
+    font-family: Trebuchet MS;
+    margin: 0;
+    padding: 0;
+}
+  
+h1, h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+  
+h1 {
+    font-size: 5rem;
+    margin-top: 30vh;
+    margin-bottom: 0px;
+}
+  
+h2 { font-size: 2rem; }
+  
+  @media (max-width: 0) {
+    #background-video {display: none;}
+    body {
+        background: no-repeat;
+        background-size: cover;
+    }
+}
+  
+main {
+    background-color: lightblue;
+    font-size: 2rem;
+    margin-top: 50vh;
+    padding: 10px;
+    position: relative;
+}
+
+
+/* navigate button */
+button {
+    background-color: whitesmoke;
+    width: 200px;
+    border-style:hidden;
+    border-radius: 20px;
+    color: black;
+    position: absolute;
+    left: 580px;
+    margin: 0px;
+    padding: 10px 10px;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+button:hover {background-color: #D0D0D0;}
+button:active {border: 1px groove black;}
+
+.Blog button {box-shadow: 0 6px 20px 0 whitesmoke;}
+
+.Materials button{
+    font-size: 18px;
+    width: 220px;
+    bottom: -120px;
+}
+.Materials {
+    position: relative;
+    left: 530px;
+}
+
+.Homepage button{
+    font-size: 18px;
+    width: 220px;
+    bottom: -120px;
+}
+.Homepage {
+    position: relative;
+    right: 580px;
+}
+
+/* Game */
+.gaming button {
+    border-style:dashed;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.gaming button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.Chess button {bottom: -100px;}
+.Chess {
+    position: relative;
+    right: 575px;
+}
+
+.Cards button {bottom: -100px;}
+.Cards {
+    position: relative;
+    right: 295px;
+}
+
+.Garena button {bottom: -100px;}
+.Garena {
+    position: relative;
+    right: 15px;
+}
+
+.Steam button {bottom: -100px;}
+.Steam {
+    position: relative;
+    left: 260px;
+}
+.ZingPlay button {bottom: -100px;}
+.ZingPlay {
+    position: relative;
+    left: 540px;
+}
+
+.ScribbleIt button {bottom: 10px;}
+.ScribbleIt {
+    position: relative;
+    left: 540px;
+}
+
+.Gartic button {bottom: 10px;}
+.Gartic {
+    position: relative;
+    right: 575px;
+}
+
+.Akinator button {bottom: 120px;}
+.Akinator {
+    position: relative;
+    left: 540px;
+}
+
+.Slitherio button {bottom: 120px;}
+.Slitherio {
+    position: relative;
+    right: 575px;
+}
+
+.FlappyBird button {bottom: 230px;}
+.FlappyBird {
+    position: relative;
+    left: 540px;
+}
+
+.Krunker button {bottom: 230px;}
+.Krunker {
+    position: relative;
+    right: 575px;
+}
+
+.RaidLand button {bottom: 340px;}
+.RaidLand {
+    position: relative;
+    left: 540px;
+}
+
+.GoldMiner button {bottom: 340px;}
+.GoldMiner {
+    position: relative;
+    right: 575px;
+}
+
+.LineRider button {bottom: 340px;}
+.LineRider {
+    position: relative;
+    right: 295px;
+}
+
+.ProsperousUniverse button {bottom: 340px;}
+.ProsperousUniverse {
+    position: relative;
+    left: 260px;
+}
+
+.HardestGame button {bottom: 340px;}
+.HardestGame {
+    position: relative;
+    right: 15px;
+}
+
+
+/* image background 'About me' */
+.aboutMe {
+    background-image: url('myself.jpg');
+    background-size: cover;
+}
+
+
+#material {text-shadow: 0px 0px 10px #000000, 0px -10px 10px #434343}
+
+#sonstarsky {
+    margin-top: 5vh;
+    text-shadow: 0px 0px 10px #000000, 0px -10px 10px #434343
+}
+/* text in 'About me' */
+h3 {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+h3 a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+    text-shadow: 9px 8px 0px rgba(0,0,0,0.15), 4px 3px 0px #fff;
+}
+
+h3 :hover {
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 2px #000000, 0px -2px 2px #434343;
+    padding: 5px;
+    animation: myGlowAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+h3 :active {
+    background-color: #eef2f3; 
+    color: black;
+}
+
+@keyframes myGlowAnimation {
+    50% {text-shadow: 0px 0px 7px #000000, 0px -7px 7px #434343;}
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
